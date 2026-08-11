@@ -1,6 +1,7 @@
 # PVEMigration
 Tip Powershell Migration Vorbereitung:
 - Erkennt ob auf VMware oder Proxmox
+  
 	Wenn gestartet auf VMware VM:
 	- Prüft Windows Version (Treiber-Auswahl)
 	- Deinstalliert VMware Tools
@@ -9,7 +10,8 @@ Tip Powershell Migration Vorbereitung:
 	- Inject VirtIO SCSI Driver (-> direkt booten auf Proxmox ohne SCSI Driver Probleme, Storage Kontroller von Anfang an SCSI)
 	- Installiert VirtIO Driver Package
 	- Erstellt einen Scheduled Task welcher automatisch nach Neustart auf Proxmox startet
-	Wenn gestartet auf Proxmox VM:
+ 
+   Wenn gestartet auf Proxmox VM:
 	- Bereinigt VMware Hardware in Geräte-Manager
 	- Setzt die Netzwerkkonfiguration (VirtIO Net und gleiche MAC ist ein Muss)
 	- Entfernt Scheduled Task
