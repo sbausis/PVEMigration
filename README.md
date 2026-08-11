@@ -14,7 +14,7 @@ Tip Powershell Migration Vorbereitung:
 	- Setzt die Netzwerkkonfiguration (VirtIO Net und gleiche MAC ist ein Muss)
 	- Entfernt Scheduled Task
 
-Vorgehen: 
+Vorgehen:
 	- VirtIO ISO Links auf selbstgewählte Source setzen (Suche nach "https://xxxx.xxx/pve/")
 	- devcon.exe und devcon32.exe zur PS1 Datei legen (https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon)
 	- Script mit PVEMigration.ps1 -MakeEXE zu PVEMigration.exe machen
