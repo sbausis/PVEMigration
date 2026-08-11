@@ -15,10 +15,11 @@ Tip Powershell Migration Vorbereitung:
 	- Entfernt Scheduled Task
 
 Vorgehen:
-	- VirtIO ISO Links auf selbstgewählte Source setzen (Suche nach "https://xxxx.xxx/pve/")
-	- devcon.exe und devcon32.exe zur PS1 Datei legen (https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon)
-	- Script mit PVEMigration.ps1 -MakeEXE zu PVEMigration.exe machen
-	- EXE auf VM in c:\TEMP ablegen und ausführen (beinhaltet devcon)
-	- VMware Maschine herunterfahren
-	- Proxmox Maschine hochfahren
-	- Fertig
+
+- VirtIO ISO Links auf selbstgewählte Source setzen (Suche nach https://xxxx.xxx/pve/)
+- devcon.exe und devcon32.exe zur PS1 Datei legen (https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/devcon)
+- Script mit PVEMigration.ps1 -MakeEXE zu PVEMigration.exe machen
+- EXE auf VM in c:\TEMP ablegen und ausführen (beinhaltet devcon)
+- VMware Maschine herunterfahren
+- Proxmox Maschine hochfahren
+- Fertig
